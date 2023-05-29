@@ -56,15 +56,14 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Bem-vindo ao meu Portfólio</span>
-                <h1>{`Oi! Eu sou Wesleson Souza`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Oi! Eu sou Wesleson Souza`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Dev Frontend", "Dev Backend", "Dev Mobile", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p style={{ textAlign: 'justify' }}>
                   Olá e bem-vindo ao meu portfólio! Sou um desenvolvedor júnior apaixonado por tecnologia e estou entusiasmado em compartilhar meu trabalho e experiência com você. Meu nome é Wesleson Souza Silva e estou dedicado a aprender e crescer no campo do desenvolvimento de software.
                   Ao longo dos meus estudos e projetos, tenho adquirido conhecimento em diversas tecnologias e frameworks, como, como React, React-Native, Java Web, HTML, CSS, JavaScript, React, Python, etc. Estou constantemente expandindo meus horizontes e me mantendo atualizado com as tendências mais recentes do setor.
                   Meu objetivo é contribuir com meu talento e habilidades para projetos desafiadores, onde possa trabalhar em equipe, aprender com colegas mais experientes e aprimorar minhas competências técnicas. Sou uma pessoa pró-ativa, com habilidades de resolução de problemas e estou sempre em busca de soluções inovadoras e eficientes.
                   Além das minhas habilidades técnicas, também valorizo a comunicação clara e efetiva. Acredito que a colaboração e o trabalho em equipe são fundamentais para o sucesso de qualquer projeto. Estou animado para trabalhar em um ambiente dinâmico, onde possa aprender e crescer profissionalmente.
                   
-                  Obrigado por visitar meu portfólio e espero que você possa ter uma ideia do meu potencial como desenvolvedor júnior. Estou animado com as possibilidades futuras e ansioso para fazer parte de uma equipe talentosa e desafiadora. Sinta-se à vontade para entrar em contato comigo para discutir qualquer oportunidade de colaboração.
-                  Atenciosamente, Wesleson Souza Silva
+                  
 
                   </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
