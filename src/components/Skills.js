@@ -145,7 +145,7 @@ export const Skills = () => {
 
                             <div className="item">
                                 <img src={python1} alt="Image" />
-                                <h5>NodeJs</h5>
+                                <h5>Python</h5>
                             </div>
              
                         </Carousel>
