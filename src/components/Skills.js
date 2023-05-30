@@ -21,7 +21,9 @@ import meter3 from "../assets/img/meter3.svg";
 import TpScript from "../assets/img/TpSript.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
+import meter4 from "../assets/img/meter4.svg";
+
+import meter5 from "../assets/img/meter5.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
@@ -60,19 +62,19 @@ export const Skills = () => {
                         </div>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter4} alt="Image" />
                                 <h5>Frontend Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter4} alt="Image" />
                                 <h5>Backend Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter5} alt="Image" />
                                 <h5>Mobile</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter4} alt="Image" />
                                 <h5>Solid</h5>
                             </div>
                           
