@@ -11,7 +11,7 @@ import nagios from "../assets/tecnologiasImg/nagios.svg";
 import nodejs from "../assets/tecnologiasImg/nodejs.svg";
 import react from "../assets/tecnologiasImg/react.svg";
 import css from "../assets/tecnologiasImg/css.svg";
-
+import Ja from "../assets/tecnologiasImg/java.svg";
 import python1 from "../assets/tecnologiasImg/python.svg";
 
 
@@ -126,6 +126,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={mysql} alt="Image" />
                                 <h5>MySQL</h5>
+                            </div>     
+                            <div className="item">
+                                <img src={Ja} alt="Image" />
+                                <h5>Java</h5>
                             </div>
                             
                             <div className="item">

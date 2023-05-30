@@ -5,6 +5,7 @@ import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
+import projImg8 from "../assets/img/project-img8.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -40,7 +41,15 @@ export const Projects = () => {
       title: "Plant Manager",
       description: "Aplicativo para lembrar as pessoas de regar suas plantas 🌱 com as tecnologias Node.js, Expo, React Native, TypeScript, ESlint ,Prettier, EditorConfig",
       imgUrl: projImg5,
-      URL: "https://github.com/weslleson22/Plantmanager"
+      
+      
+    },
+
+    {
+      title: "MeAlzheimer",
+      description: "Aplicativo para lembrar as pessoas com Alzheimer em estagio inicial construido com tecnologias Node.js, Expo, React Native, TypeScript, ESlint ,Prettier, EditorConfig",
+      imgUrl: projImg8,
+      
       
     },
   ];
