@@ -1,8 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+
+import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
+import projImg7 from "../assets/img/project-img7.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,34 +13,35 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Site Beauty Salon Startup",
+      description: "Feito com as tecnologias HTML, JavaScript e CSS.",
+      imgUrl: projImg6,
     },
+
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Site Ecoleta",
+      description: "Website (React + TypeScript), React Router Dom, React Icons, Axios, Leaflet, React Dropzone",
+      imgUrl: projImg7,
     },
+
+
+  ];
+
+  const projects_backend = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "API em NodeJs",
+      description: "Foram usados conceitos de SOLID para a construção desse CRUD",
+      imgUrl: projImg4,
     },
+  ];
+
+  const projects_mobile = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Plant Manager",
+      description: "Aplicativo para lembrar as pessoas de regar suas plantas 🌱 com as tecnologias Node.js, Expo, React Native, TypeScript, ESlint ,Prettier, EditorConfig",
+      imgUrl: projImg5,
+      URL: "https://github.com/weslleson22/Plantmanager"
+      
     },
   ];
 
@@ -80,11 +83,35 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>----</p>
+                    <Tab.Pane eventKey="second">
+                      
+                    <Row>
+                        {
+                          projects_backend.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>--</p>
+                                          
+                    <Row>
+                        {
+                          projects_mobile.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
