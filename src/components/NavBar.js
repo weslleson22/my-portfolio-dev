@@ -5,6 +5,8 @@ import navIcon from '../assets/img/nav-icon.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+
+import navIcon4 from '../assets/img/whatsapp.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -51,6 +53,8 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
+                
+                <a href="https://api.whatsapp.com/send?phone=5598984971547"><img src={navIcon4} alt="" /></a>
                 <a href="https://github.com/weslleson22"><img src={navIcon} alt="" /></a>
                 <a href="https://www.linkedin.com/in/wesleson-souza-silva-a598b8152/"><img src={navIcon1} alt="" /></a>
                 <a href="https://www.facebook.com/weslleson.santos/"><img src={navIcon2} alt="" /></a>
