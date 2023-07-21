@@ -56,7 +56,7 @@ export const NavBar = () => {
                 
                 <a href="https://api.whatsapp.com/send?phone=5598984971547"><img src={navIcon4} alt="" /></a>
                 <a href="https://github.com/weslleson22"><img src={navIcon} alt="" /></a>
-                <a href="https://www.linkedin.com/in/wesleson-souza-silva-a598b8152/"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.linkedin.com/in/wesleson-silva-244177281/"><img src={navIcon1} alt="" /></a>
                 <a href="https://www.facebook.com/weslleson.santos/"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/eng_weslleson9/?igshid=MzNlNGNkZWQ4Mg%3D%3D"><img src={navIcon3} alt="" /></a>
               </div>
