@@ -6,6 +6,10 @@ import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
 import projImg8 from "../assets/img/project-img8.png";
+
+import projImg9 from "../assets/img/project-imgsw9.png";
+
+import projImg10 from "../assets/img/project-imgsw10.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -23,6 +27,17 @@ export const Projects = () => {
       title: "Site Ecoleta",
       description: "Website (React + TypeScript), React Router Dom, React Icons, Axios, Leaflet, React Dropzone",
       imgUrl: projImg7,
+    },
+    {
+      title: "Site Statup Sw System",
+      description: "Website (React + TypeScript), React Router Dom, React Icons, Axios",
+      imgUrl: projImg9,
+    },
+
+    {
+      title: "Site App MeAzheimer",
+      description: "Website (React + TypeScript), React Router Dom,",
+      imgUrl: projImg10,
     },
 
 
